@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/index.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <form 
+        id="Form"
+        method="POST"
+        action="http://localhost">
+            <label>
+                Фамилия:
+                <input name="lastName" type="text" />
+            </label>
+            
+            <label>
+                Возраст:
+                <input name="age" min="0" type="number" />
+            </label>
+
+            <label>
+                Дата рождения:
+                <input name="birthDate" type="date" />
+            </label>
+
+            <input type="submit" value="отправить" />
+        </form>
+    </div>
+</body>
+</html>
